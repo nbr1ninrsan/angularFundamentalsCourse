@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en" ng-app="eventsApp">
+<head>
+    <meta charset="utf-8">
+    <title>Event Registration</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="/css/app.css"/>
+</head>
+
+<body>
+
+<div class="container-fluid">
+    <form name="profileForm">
+        <div class="row-fluid">
+            <div class="span3">
+                <img src="/img/profile.jpg">
+            </div>
+            <div class="span3">
+                <fieldset>
+                    <label for="name">Name: </label>
+                    <input focus id="name" type="text" placeholder="Username" ng-model="user.userName"/>
+                </fieldset>
+            </div>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>
